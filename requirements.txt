@@ -1,0 +1,8 @@
+requests==2.*
+greenlet==2.* 
+SQLAlchemy==1.4.*
+SQLAlchemy-Utils
+PyYAML==6.*
+rich==12.*
+pprintpp
+psycopg2-binary==2.*
