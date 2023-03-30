@@ -32,7 +32,7 @@ env:
 - name: FS_API_URL
   value: ""
 ```
-Defaults to the sandbox account "https://color-fs-sandbox.freshservice.com/api/v2/"
+Defaults to the sandbox account "https://{name}-fs-sandbox.freshservice.com/api/v2/"
 
 # Running
 To start the backup
