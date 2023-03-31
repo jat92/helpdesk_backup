@@ -2,7 +2,7 @@
 # import os
 import sys
 # from base64 import b64encode
-import fs_db
+import hd_db
 from sqlalchemy.orm import sessionmaker
 import http_func
 import db_func
@@ -15,7 +15,7 @@ script_name = Path(__file__).stem
 logger = loggy.logging.getLogger(script_name)
 
 fake_err_num = 100000000
-db=fs_db.connect_db()
+db=hd_db.connect_db()
 Session = sessionmaker(bind=db)
 session = Session()
 

@@ -35,7 +35,7 @@ loggers:
         level: DEBUG
         handlers: [stdout]
         propogate: yes
-    backup-fs:
+    backup-hd:
         level: DEBUG
         handlers: [stdout]
         propogate: yes
@@ -43,11 +43,11 @@ loggers:
         level: DEBUG
         handlers: [stdout]
         propogate: yes
-    fs_restore:
+    hd_restore:
         level: DEBUG
         handlers: [stdout]
         propogate: yes
-    manage-fs:
+    manage-hd:
         level: DEBUG
         handlers: [stdout]
         propogate: yes
